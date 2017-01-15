@@ -1,901 +1,982 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Source\Misc">
+      <UniqueIdentifier>{72876390-144f-45b7-8447-05d43263d392}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Source">
+      <UniqueIdentifier>{444087a0-ccb3-4adc-9b4e-3d1c0084caae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Source\SceneObjects\VirtualCreatures">
+      <UniqueIdentifier>{c6aeacc1-9115-4a45-9304-6a2f75d3c218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneObjects">
+      <UniqueIdentifier>{6aea859a-1baa-4c5f-b18d-048ac0b488a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron">
+      <UniqueIdentifier>{c3a4e16f-b31d-4b81-a0dd-6af1c5e3c2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneObjects\VirtualCreatures\NeuralNet">
+      <UniqueIdentifier>{192b20f8-6b01-4722-b935-874bed76a3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AssetManager">
+      <UniqueIdentifier>{5869a523-c79a-43ee-b073-edeb46c73b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Constructs">
+      <UniqueIdentifier>{50bd290a-ee68-4517-80bf-f6889f1759a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PathFinding">
+      <UniqueIdentifier>{5a7906cc-f3af-4391-9f67-ca3e40f6e40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\BufferObjects">
+      <UniqueIdentifier>{d8ec7670-60ea-47cc-8e29-dd6dbce55e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer">
+      <UniqueIdentifier>{7ea0d791-aebc-4a5f-97af-cea5a8c854e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\Octree">
+      <UniqueIdentifier>{be523d9a-5ebf-4a1c-9ffa-dbb40ea39715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneEffects">
+      <UniqueIdentifier>{bfc26c6d-4c65-4d33-8c83-18f8f1b34282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneEffects\Water">
+      <UniqueIdentifier>{0cce4b1e-cd36-4cfc-8adf-26cc990fae8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneEffects\Transparency">
+      <UniqueIdentifier>{3c85e82d-08b2-4ca3-999a-1b83decc66dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneObjects\Enemies">
+      <UniqueIdentifier>{caaafd3c-5863-47c8-9128-8bacb8318ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneObjects\Particles">
+      <UniqueIdentifier>{fc0c7fe7-cbbb-4ede-a60f-f42be91da93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneObjects\Physics">
+      <UniqueIdentifier>{751b6792-7510-4e5f-9c7f-6225b5abc032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneObjects\Weapons">
+      <UniqueIdentifier>{fb96d29e-e634-4a90-abe2-70e80a2f57f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{5c73e8df-b853-4968-b7bd-c7ee6f04d57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World">
+      <UniqueIdentifier>{0ede2253-1a62-4d01-836a-0eff144518a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Perlin">
+      <UniqueIdentifier>{bdd52396-1fab-4c8b-96cc-182e5ecbe73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\Animation_MD5">
+      <UniqueIdentifier>{66318ec4-dc35-4bb8-9287-6a1898ba5ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\Culler">
+      <UniqueIdentifier>{a7047f7f-dde9-45e3-954e-e1592501d9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\Model_MD5">
+      <UniqueIdentifier>{bbac345f-1100-4dd6-94ae-2af420fadf68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\Quadtree">
+      <UniqueIdentifier>{93ce7227-19bd-4361-b65d-0035111c3aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\Shader">
+      <UniqueIdentifier>{9bf2af69-4fa7-4f6c-93e2-349036445902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\ShadowMap">
+      <UniqueIdentifier>{6feeb59f-628d-4147-8c5e-8a1eac773551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{58dfe111-49d8-40de-9ab1-d0b05beb8270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound">
+      <UniqueIdentifier>{0902e174-484f-4611-aaae-5299428a2fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities">
+      <UniqueIdentifier>{63ba5992-0082-4520-927f-bc1ef424b430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World\Physics">
+      <UniqueIdentifier>{cd657b9d-b865-45f3-bbbb-5d54bad08ac5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="SDL.dll" />
-    <None Include="glew32d.dll" />
-    <None Include="glew32.dll" />
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Source\AssetManager\Asset_Texture.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\AABB.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Matrix4x4f.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Plane_Equationf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Planef.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Point3i.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Quaternion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Vec3f.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Perlin\NoiseGenerator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\BufferObjects\FBO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\BufferObjects\VBO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Culler\Frustum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Octree\Octree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Octree\OctreeNode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Octree\StaticOctree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Shader\Shader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Shader\TextureAndAttachment.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Camera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\SDL_OpenGL.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Window.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Utilities\UtilFuncs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\World\Chunk.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\World\World.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_OBJ.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Scene\Scene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Scene\SceneObject.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Octree\OctreeOccupant.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\World\Physics\MapCollider.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Misc\InputHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Misc\FrameTimer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\RenderUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\ShadowMap\ShadowCubeMap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\World\LuaWorldInterface.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\GBuffer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Scene\SceneEffect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\SceneEffect_GodRay.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Light_Point.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Color3f.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Color4f.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Matrix4x4d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Vec4d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Vec2f.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Light_Point_Shadowed.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_MD5\Model_MD5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_Prop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_OBJ_VertexOnly.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_MD5\Weight.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_MD5\Vertex.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_MD5\Joint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_MD5\Mesh.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Animation_MD5\Animation_MD5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Animation_MD5\BaseFrame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Animation_MD5\JointDesc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Animation_MD5\FrameData.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Animation_MD5\SkeletalJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Vec4f.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\SceneEffect_Lighting.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\SceneEffect_SSAO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_SpiralStairs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_Door.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Light_Spot.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\AssetManager\Asset.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\AssetManager\AssetManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\WeaponAssetPack.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\SceneObject_Weapon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Light_Spot_Shadowed.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\SceneEffect_EdgeBlurAA.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\AABB2D.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Point2i.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Quadtree\Quadtree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Quadtree\QuadtreeNode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Quadtree\QuadtreeOccupant.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Quadtree\StaticQuadtree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Shader\UBOShaderInterface.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Light.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_PhysicsWorld.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_PhysicsBox.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\BulletConversions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Sound\SoundSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_Sound.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Sound\OpenALUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Sound\SoundSource.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Sound\Sound_Streamed.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Sound\Sound_Effect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\Weapon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\SceneObject_Shell.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\SceneEffect_EmissiveRender.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Sprite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\WeaponFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Particles\Particle_Sprite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Point.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\World\Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Pyramid.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Physics\DynamicCharacterController.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\Wire.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Transparency\SceneEffect_TransparencyRender.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Transparency\TransparentRenderable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_Prop_Transparent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Water\SceneEffect_WaterRender.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Water\WaterGeomGrouping.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Water\TestGrouping.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_Water.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\SceneEffect_HDRR.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Swarmer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Matrix3x3f.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\PathFinding\AStar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\System\CSDLThread.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\System\CSDLThreadPool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_LevelGoal.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Flea.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_EnemySelector.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Model_OBJ_Physics_Static.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Static.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Dynamic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_Decal.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Physics\DynamicConcaveShape.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Spawner.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\SceneEffect_HUD.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\WeaponOutput.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\Weapons\WeaponOutput_Ballistic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\BufferObjects\VAO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Material.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Octree\Octree_CHCPP.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Octree\Octree_CHC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Renderer\Octree\SoftwareOcclusionCuller.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Constructs\Point4i.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Light_Directional.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneEffects\Light_Directional_Shadowed.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\SceneObject_SkyBox.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\VirtualCreatures\Limb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\NeuronInput.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Contact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\VirtualCreatures\SceneObject_Creature.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Timer.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\Misc\PID_Controller.cpp">
+      <Filter>Source\Misc</Filter>
     </ClCompile>
     <ClCompile Include="Source\SceneObjects\VirtualCreatures\CreatureEvolver.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
     </ClCompile>
     <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Feeler.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
     </ClCompile>
-    <ClCompile Include="Source\SceneObjects\VirtualCreatures\SceneObject_VirtualCreatureSimulator.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\SceneObjects\VirtualCreatures\SceneObject_Creature.cpp">
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AssetManager\Asset.cpp">
+      <Filter>Source\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AssetManager\AssetManager.cpp">
+      <Filter>Source\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AssetManager\Asset_Texture.cpp">
+      <Filter>Source\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\AABB.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\AABB2D.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\BulletConversions.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Color3f.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Color4f.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Matrix3x3f.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Matrix4x4d.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Matrix4x4f.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Planef.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Plane_Equationf.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Point2i.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Point3i.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Point4i.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Quaternion.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Vec2f.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Vec3f.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Vec4d.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constructs\Vec4f.cpp">
+      <Filter>Source\Constructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PathFinding\AStar.cpp">
+      <Filter>Source\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\BufferObjects\VAO.cpp">
+      <Filter>Source\Renderer\BufferObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Material.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_OBJ_Physics_Static.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Octree\Octree_CHC.cpp">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Octree\Octree_CHCPP.cpp">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Octree\SoftwareOcclusionCuller.cpp">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Light_Directional.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Light_Directional_Shadowed.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\SceneEffect_HDRR.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_SkyBox.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Water\SceneEffect_WaterRender.cpp">
+      <Filter>Source\SceneEffects\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Transparency\SceneEffect_TransparencyRender.cpp">
+      <Filter>Source\SceneEffects\Transparency</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Transparency\TransparentRenderable.cpp">
+      <Filter>Source\SceneEffects\Transparency</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Water\TestGrouping.cpp">
+      <Filter>Source\SceneEffects\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Water\WaterGeomGrouping.cpp">
+      <Filter>Source\SceneEffects\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy.cpp">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_EnemySelector.cpp">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Flea.cpp">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Spawner.cpp">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Swarmer.cpp">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Pyramid.cpp">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Physics\DynamicCharacterController.cpp">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Physics\DynamicConcaveShape.cpp">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Dynamic.cpp">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Static.cpp">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_Decal.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\SceneEffect_HUD.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_LevelGoal.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_Prop_Transparent.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_Water.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\VirtualCreatures\Limb.cpp">
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
     </ClCompile>
     <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Misc\PID_Controller.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\NeuronInput.cpp">
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Contact.cpp">
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Timer.cpp">
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\VirtualCreatures\SceneObject_VirtualCreatureSimulator.cpp">
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\WeaponOutput.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\WeaponOutput_Ballistic.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\CSDLThread.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\CSDLThreadPool.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\Main.cpp">
+      <Filter>Source\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Misc\FrameTimer.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Misc\InputHandler.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Perlin\NoiseGenerator.cpp">
+      <Filter>Source\Perlin</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Animation_MD5\FrameData.cpp">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Animation_MD5\SkeletalJoint.cpp">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\BufferObjects\FBO.cpp">
+      <Filter>Source\Renderer\BufferObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\BufferObjects\VBO.cpp">
+      <Filter>Source\Renderer\BufferObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Camera.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Culler\Frustum.cpp">
+      <Filter>Source\Renderer\Culler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\GBuffer.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Animation_MD5\Animation_MD5.cpp">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Animation_MD5\BaseFrame.cpp">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_MD5\Joint.cpp">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Animation_MD5\JointDesc.cpp">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_MD5\Mesh.cpp">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_MD5\Model_MD5.cpp">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_MD5\Vertex.cpp">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_MD5\Weight.cpp">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_OBJ.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Model_OBJ_VertexOnly.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Octree\Octree.cpp">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Octree\OctreeNode.cpp">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Octree\OctreeOccupant.cpp">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Octree\StaticOctree.cpp">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Quadtree\Quadtree.cpp">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Quadtree\QuadtreeNode.cpp">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Quadtree\QuadtreeOccupant.cpp">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Quadtree\StaticQuadtree.cpp">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\RenderUtils.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\SDL_OpenGL.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Shader\Shader.cpp">
+      <Filter>Source\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Shader\TextureAndAttachment.cpp">
+      <Filter>Source\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Shader\UBOShaderInterface.cpp">
+      <Filter>Source\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\ShadowMap\ShadowCubeMap.cpp">
+      <Filter>Source\Renderer\ShadowMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Sprite.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\Window.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Light.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Light_Point.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Light_Point_Shadowed.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Light_Spot.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\Light_Spot_Shadowed.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\SceneEffect_EdgeBlurAA.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\SceneEffect_EmissiveRender.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\SceneEffect_GodRay.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\SceneEffect_Lighting.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneEffects\SceneEffect_SSAO.cpp">
+      <Filter>Source\SceneEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite.cpp">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Particles\Particle_Sprite.cpp">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Point.cpp">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_PhysicsBox.cpp">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Physics\SceneObject_PhysicsWorld.cpp">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_Door.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_Player.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_Prop.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_Sound.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\SceneObject_SpiralStairs.cpp">
+      <Filter>Source\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\SceneObject_Shell.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\SceneObject_Weapon.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\Weapon.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\WeaponAssetPack.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\WeaponFactory.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneObjects\Weapons\Wire.cpp">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Scene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneEffect.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneObject.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\OpenALUtils.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\SoundSource.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\SoundSystem.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\Sound_Effect.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\Sound_Streamed.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities\UtilFuncs.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\Chunk.cpp">
+      <Filter>Source\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\LuaWorldInterface.cpp">
+      <Filter>Source\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\Physics\MapCollider.cpp">
+      <Filter>Source\World\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\World.cpp">
+      <Filter>Source\World</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\AssetManager\Asset_Texture.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\AssetManager\AssetManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\AABB.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Matrix4x4f.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Plane_Equationf.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Planef.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Point3i.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Quaternion.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Vec3f.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Perlin\NoiseGenerator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\BufferObjects\FBO.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\BufferObjects\VBO.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Culler\Frustum.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\Octree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\OctreeNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\OctreeOccupant.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\StaticOctree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Shader\Shader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Shader\TextureAndAttachment.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Camera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\SDL_OpenGL.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Window.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\System\Uncopyable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\World\Chunk.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\World\World.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_OBJ.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Scene\Scene.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Scene\SceneObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Misc\InputHandler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Misc\FrameTimer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\RenderUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\ShadowMap\ShadowCubeMap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\World\LuaWorldInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\GBuffer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Scene\SceneEffect.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\SceneEffect_GodRay.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Light_Point.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Color3f.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Color4f.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Matrix4x4d.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Vec4d.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Vec2f.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Light_Point_Shadowed.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_MD5\Model_MD5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_Prop.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_OBJ_VertexOnly.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_MD5\Weight.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_MD5\Vertex.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_MD5\Joint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_MD5\Mesh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Animation_MD5\Animation_MD5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Animation_MD5\BaseFrame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Animation_MD5\JointDesc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Animation_MD5\FrameData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Animation_MD5\SkeletalJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Vec4f.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\SceneEffect_Lighting.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\SceneEffect_SSAO.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_SpiralStairs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_Door.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Light_Spot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\AssetManager\Asset.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\WeaponAssetPack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\SceneObject_Weapon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Light.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Light_Spot_Shadowed.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\SceneEffect_EdgeBlurAA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Utilities\UtilFuncs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\AABB2D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Point2i.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Quadtree\Quadtree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Quadtree\QuadtreeNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Quadtree\QuadtreeOccupant.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Quadtree\StaticQuadtree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Shader\UBOShaderInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_PhysicsWorld.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_PhysicsBox.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\BulletConversions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Sound\SoundSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_Sound.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Sound\OpenALUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Sound\SoundSource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Sound\Sound_Streamed.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Sound\Sound_Effect.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Sound\Sound.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\Weapon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\SceneObject_Shell.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\SceneEffect_EmissiveRender.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Sprite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\WeaponFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_Decal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Particles\Particle_Sprite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Point.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Pyramid.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Physics\DynamicCharacterController.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\Wire.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Transparency\SceneEffect_TransparencyRender.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Transparency\TransparentRenderable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_Prop_Transparent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Water\SceneEffect_WaterRender.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Water\WaterGeomGrouping.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Water\TestGrouping.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_Water.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\SceneEffect_HDRR.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Swarmer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Matrix3x3f.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\World\Physics\MapCollider.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\PathFinding\MinHeap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\PathFinding\AStar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\System\CSDLThread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\System\CSDLThreadPool.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_LevelGoal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Flea.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_EnemySelector.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Model_OBJ_Physics_Static.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Static.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Dynamic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Physics\DynamicConcaveShape.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Spawner.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\SceneEffect_HUD.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\WeaponOutput_Ballistic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\Weapons\WeaponOutput.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\BufferObjects\VAO.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Scene\BatchRenderer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Scene\BatchRenderable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Material.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\Octree_CHCPP.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\Octree_CHC.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\Occlusion_Renderer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Renderer\Octree\SoftwareOcclusionCuller.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Constructs\Point4i.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Light_Directional.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneEffects\Light_Directional_Shadowed.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\SceneObject_SkyBox.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\VirtualCreatures\Limb.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\NeuronInput.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Contact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\VirtualCreatures\SceneObject_Creature.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Timer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Source\Misc\PID_Controller.h">
+      <Filter>Source\Misc</Filter>
     </ClInclude>
     <ClInclude Include="Source\SceneObjects\VirtualCreatures\CreatureEvolver.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor.h">
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
     </ClInclude>
     <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Feeler.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
     </ClInclude>
-    <ClInclude Include="Source\SceneObjects\VirtualCreatures\SceneObject_VirtualCreatureSimulator.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Source\SceneObjects\VirtualCreatures\SceneObject_Creature.h">
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AssetManager\Asset.h">
+      <Filter>Source\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AssetManager\AssetManager.h">
+      <Filter>Source\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AssetManager\Asset_Texture.h">
+      <Filter>Source\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\AABB.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\AABB2D.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\BulletConversions.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Color3f.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Color4f.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Matrix3x3f.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Matrix4x4d.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Matrix4x4f.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Planef.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Plane_Equationf.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Point2i.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Point3i.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Point4i.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Quaternion.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Vec2f.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Vec3f.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Vec4d.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constructs\Vec4f.h">
+      <Filter>Source\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Misc\FrameTimer.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Misc\InputHandler.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PathFinding\AStar.h">
+      <Filter>Source\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PathFinding\MinHeap.h">
+      <Filter>Source\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Perlin\NoiseGenerator.h">
+      <Filter>Source\Perlin</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Animation_MD5\FrameData.h">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Animation_MD5\SkeletalJoint.h">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\BufferObjects\FBO.h">
+      <Filter>Source\Renderer\BufferObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\BufferObjects\VAO.h">
+      <Filter>Source\Renderer\BufferObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\BufferObjects\VBO.h">
+      <Filter>Source\Renderer\BufferObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Camera.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Culler\Frustum.h">
+      <Filter>Source\Renderer\Culler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\GBuffer.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Animation_MD5\Animation_MD5.h">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Animation_MD5\BaseFrame.h">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Material.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_MD5\Joint.h">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Animation_MD5\JointDesc.h">
+      <Filter>Source\Renderer\Animation_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_MD5\Mesh.h">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_MD5\Model_MD5.h">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_MD5\Vertex.h">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_MD5\Weight.h">
+      <Filter>Source\Renderer\Model_MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_OBJ.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_OBJ_Physics_Static.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Model_OBJ_VertexOnly.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\Occlusion_Renderer.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\Octree.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\OctreeNode.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\OctreeOccupant.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\Octree_CHC.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\Octree_CHCPP.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\SoftwareOcclusionCuller.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Octree\StaticOctree.h">
+      <Filter>Source\Renderer\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Quadtree\Quadtree.h">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Quadtree\QuadtreeNode.h">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Quadtree\QuadtreeOccupant.h">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Quadtree\StaticQuadtree.h">
+      <Filter>Source\Renderer\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\RenderUtils.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\SDL_OpenGL.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Shader\Shader.h">
+      <Filter>Source\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Shader\TextureAndAttachment.h">
+      <Filter>Source\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Shader\UBOShaderInterface.h">
+      <Filter>Source\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\ShadowMap\ShadowCubeMap.h">
+      <Filter>Source\Renderer\ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Sprite.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\Window.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Light.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Light_Directional.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Light_Directional_Shadowed.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Light_Point.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Light_Point_Shadowed.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Light_Spot.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Light_Spot_Shadowed.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\SceneEffect_EdgeBlurAA.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\SceneEffect_EmissiveRender.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\SceneEffect_GodRay.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\SceneEffect_HDRR.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\SceneEffect_Lighting.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_SkyBox.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\SceneEffect_SSAO.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Water\SceneEffect_WaterRender.h">
+      <Filter>Source\SceneEffects\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Transparency\SceneEffect_TransparencyRender.h">
+      <Filter>Source\SceneEffects\Transparency</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Transparency\TransparentRenderable.h">
+      <Filter>Source\SceneEffects\Transparency</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Water\TestGrouping.h">
+      <Filter>Source\SceneEffects\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\Water\WaterGeomGrouping.h">
+      <Filter>Source\SceneEffects\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy.h">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_EnemySelector.h">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Flea.h">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Spawner.h">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Enemies\SceneObject_Enemy_Swarmer.h">
+      <Filter>Source\SceneObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite.h">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Particles\Particle_Sprite.h">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Point.h">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Particles\SceneObject_ParticleEmitter_Sprite_Pyramid.h">
+      <Filter>Source\SceneObjects\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Physics\DynamicCharacterController.h">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Physics\DynamicConcaveShape.h">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_PhysicsBox.h">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_PhysicsWorld.h">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Dynamic.h">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Physics\SceneObject_Prop_Physics_Static.h">
+      <Filter>Source\SceneObjects\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_Decal.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_Door.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneEffects\SceneEffect_HUD.h">
+      <Filter>Source\SceneEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_LevelGoal.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_Player.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_Prop.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_Prop_Transparent.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_Sound.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_SpiralStairs.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\SceneObject_Water.h">
+      <Filter>Source\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\VirtualCreatures\Limb.h">
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
     </ClInclude>
     <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Misc\PID_Controller.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\NeuronInput.h">
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
     </ClInclude>
+    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Contact.h">
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron\Neuron_Sensor_Timer.h">
+      <Filter>Source\SceneObjects\VirtualCreatures\NeuralNet\Neuron</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\VirtualCreatures\SceneObject_VirtualCreatureSimulator.h">
+      <Filter>Source\SceneObjects\VirtualCreatures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\SceneObject_Shell.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\SceneObject_Weapon.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\Weapon.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\WeaponAssetPack.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\WeaponFactory.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\WeaponOutput.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\WeaponOutput_Ballistic.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneObjects\Weapons\Wire.h">
+      <Filter>Source\SceneObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\BatchRenderable.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\BatchRenderer.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Scene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneEffect.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneObject.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\OpenALUtils.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\Sound.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\SoundSource.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\SoundSystem.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\Sound_Effect.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\Sound_Streamed.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\CSDLThread.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\CSDLThreadPool.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Uncopyable.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities\UtilFuncs.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\Chunk.h">
+      <Filter>Source\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\LuaWorldInterface.h">
+      <Filter>Source\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\Physics\MapCollider.h">
+      <Filter>Source\World\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\World.h">
+      <Filter>Source\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
 </Project>

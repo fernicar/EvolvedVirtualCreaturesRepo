@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -14,18 +14,19 @@
     <ProjectGuid>{8DFE21E9-831F-43F6-863F-3D1FA77FBC92}</ProjectGuid>
     <RootNamespace>VirtualCreatures</RootNamespace>
     <ProjectName>VirtualCreatures</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -37,59 +38,56 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libogg\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libvorbis-1.3.3\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\OpenAL 1.1\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\bullet-2.81-rev2613\src;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\Lua\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL_image-1.2.12\include;C:\Users\Eric\Documents\Visual Studio 2010\Projects\VirtualCreatures\Volumetric_SDL\Source;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\glew-1.7.0\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL-1.2.15\include;C:\Program Files %28x86%29\Visual Leak Detector\include;$(IncludePath)</IncludePath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>C:\Program Files %28x86%29\Visual Leak Detector\lib\Win32;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libogg\win32\VS2010\Win32\Release;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libvorbis-1.3.3\win32\VS2010\Win32\Release;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\OpenAL 1.1\libs\Win32;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\bullet-2.81-rev2613\build\lib\lib\Debug;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\Lua\lib;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL_image-1.2.12\lib\x86;C:\Users\Eric\Documents\Visual Studio 2010\Projects\VirtualCreatures\Volumetric_SDL\Source;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\glew-1.7.0\lib;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL-1.2.15\lib\x86;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\Eric\Documents\Visual Studio 2010\Libraries\bullet-2.80-rev2531\bullet-2.80-rev2531\Extras\HACD;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libogg\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libvorbis-1.3.3\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\OpenAL 1.1\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\bullet-2.81-rev2613\src;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\Lua\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL_image-1.2.12\include;C:\Users\Eric\Documents\Visual Studio 2010\Projects\VirtualCreatures\Volumetric_SDL\Source;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\glew-1.7.0\include;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL-1.2.15\include;$(IncludePath)</IncludePath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LibraryPath>C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libogg\win32\VS2010\Win32\Release;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\libvorbis-1.3.3\win32\VS2010\Win32\Release;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\OpenAL 1.1\libs\Win32;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\bullet-2.81-rev2613\build\lib\lib\Release;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\Lua\lib;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL_image-1.2.12\lib\x86;C:\Users\Eric\Documents\Visual Studio 2010\Projects\VirtualCreatures\Volumetric_SDL\Source;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\glew-1.7.0\lib;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\SDL-1.2.15\lib\x86;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(solutiondir)freealut\include;$(solutiondir)SDL2_image\include\;$(ProjectDir)Source\;$(VcpkgRoot)include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_image.lib;glew32.lib;opengl32.lib;glu32.lib;lua5.1.lib;OpenAL32.lib;alut.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;BulletDynamics_Debug.lib;BulletCollision_Debug.lib;LinearMath_Debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;glew32.lib;opengl32.lib;glu32.lib;lua.lib;OpenAL32.lib;alut.lib;ogg.lib;vorbis.lib;vorbisfile.lib;BulletDynamics_Debug.lib;BulletCollision_Debug.lib;LinearMath_Debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\Eric\Documents\Visual Studio 2010\Libraries\OpenAL 1.1\libs\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(solutiondir)freealut\lib;$(solutiondir)SDL2_image\lib\x86;C:\src\vcpkg\packages\glew_x86-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ProjectReference />
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" "$(ProjectDir)$(TargetName)_d$(TargetExt)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <PreprocessorDefinitions>RELEASE;_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(solutiondir)freealut\include;$(solutiondir)SDL2_image\include\;$(ProjectDir)Source\;$(VcpkgRoot)include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_image.lib;glew32.lib;opengl32.lib;glu32.lib;lua5.1.lib;OpenAL32.lib;alut.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;BulletDynamics.lib;BulletCollision.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;glew32.lib;opengl32.lib;glu32.lib;lua.lib;OpenAL32.lib;alut.lib;ogg.lib;vorbis.lib;vorbisfile.lib;BulletDynamics.lib;BulletCollision.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\Eric\Documents\Visual Studio 2010\Libraries\OpenAL 1.1\libs\Win32;C:\Users\Eric\Documents\Visual Studio 2010\Libraries\bullet-2.81-rev2613\build\lib\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(solutiondir)freealut\lib;$(solutiondir)SDL2_image\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ProjectReference />
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetPath)" "$(ProjectDir)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
     <None Include="ClassDiagram2.cd" />
-    <None Include="glew32.dll" />
-    <None Include="glew32d.dll" />
-    <None Include="SDL.dll" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Misc\PID_Controller.cpp" />
