@@ -5,6 +5,7 @@
 #include <Renderer/Culler/Frustum.h>
 
 #include <unordered_set>
+#include <memory>
 
 // Base class for dynamic and static Quadtree types
 class Quadtree

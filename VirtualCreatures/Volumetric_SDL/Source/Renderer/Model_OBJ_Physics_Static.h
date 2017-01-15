@@ -2,8 +2,8 @@
 
 #include <Renderer/Model_OBJ.h>
 
-#include <btBulletDynamicsCommon.h>
-#include <btBulletCollisionCommon.h>
+#include <bullet/btBulletDynamicsCommon.h>
+#include <bullet/btBulletCollisionCommon.h>
 
 class Model_OBJ_Physics_Static :
 	public Model_OBJ

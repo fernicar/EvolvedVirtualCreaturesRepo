@@ -12,8 +12,8 @@
 #include <Scene/SceneObject.h>
 #include <Scene/BatchRenderer.h>
 
-#include <btBulletCollisionCommon.h>
-#include <btBulletDynamicsCommon.h>
+#include <bullet/btBulletCollisionCommon.h>
+#include <bullet/btBulletDynamicsCommon.h>
 
 #include <string>
 

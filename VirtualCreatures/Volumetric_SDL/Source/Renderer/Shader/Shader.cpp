@@ -42,7 +42,9 @@ bool Shader::LoadShader(const std::string &name, unsigned int id)
 
 	// Load the shader code into one massive string
 	std::string fileString((std::istreambuf_iterator<char>(fromFile)), std::istreambuf_iterator<char>());
-
+	if(fileString[1]!='v'&&fileString[2]!='e'&&fileString[3]!='r')
+		// force GLSL version 1.5 (compatible with GL version 2.3)
+		fileString="#version 120\n"+fileString;
 	const char* code = fileString.c_str();
 	glShaderSource(id, 1, &code, NULL);
 	glCompileShader(id);

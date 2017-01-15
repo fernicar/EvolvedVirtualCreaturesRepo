@@ -3,9 +3,13 @@
 // To avoid GLEW and SDL conflicts
 #define NO_SDL_GLEXT
 
-#include <SDL.h>
+#if defined(_MSC_VER)
+#define SDL_MAIN_HANDLED
+#endif
+
+#include <SDL2/SDL.h>
 #include <gl/glew.h>
-#include <SDL_opengl.h>
+#include <SDL2/SDL_opengl.h>
 
 #include <string>
 

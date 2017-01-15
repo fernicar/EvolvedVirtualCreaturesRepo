@@ -3,8 +3,8 @@
 #include <AssetManager/Asset.h>
 #include <Sound/Sound.h>
 
-#include <al.h>
-#include <alut.h>
+#include <al/al.h>
+#include <al/alut.h>
 
 class Sound_Effect :
 	public Asset, public Sound

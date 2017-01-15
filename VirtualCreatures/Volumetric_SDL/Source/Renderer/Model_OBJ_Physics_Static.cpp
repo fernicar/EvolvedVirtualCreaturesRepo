@@ -53,7 +53,7 @@ bool Model_OBJ_Physics_Static::LoadAsset(const std::string &name)
 	std::vector<Vec3f> normals;
 
 	// Hash map for linking indices to vertex array index for attributes
-	std::unordered_map<IndexSet, unsigned int, IndexSet> indexToVertex;
+	std::unordered_map<IndexSet, unsigned int, KeyHash, KeyEqual> indexToVertex;
 
 	// Initial extremes
 	m_aabb.m_lowerBound = Vec3f(9999.0f, 9999.0f, 9999.0f);
@@ -145,7 +145,7 @@ bool Model_OBJ_Physics_Static::LoadAsset(const std::string &name)
 			for(int i = 0; i < 3; i++)
 			{
 				// Search for index set 1
-				std::unordered_map<IndexSet, unsigned int>::iterator it = indexToVertex.find(v[i]);
+				std::unordered_map<IndexSet, unsigned int,KeyHash,KeyEqual>::iterator it = indexToVertex.find(v[i]);
 
 				if(it == indexToVertex.end())
 				{

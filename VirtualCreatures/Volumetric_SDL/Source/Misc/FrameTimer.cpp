@@ -1,6 +1,6 @@
 #include <Misc/FrameTimer.h>
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 FrameTimer::FrameTimer(unsigned int bufferSize, float normalFrameRate)
 	: m_bufferSize(bufferSize), m_normalFrameRate(normalFrameRate),

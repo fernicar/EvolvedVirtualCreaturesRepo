@@ -6,6 +6,7 @@
 
 #include <unordered_set>
 #include <list>
+#include <memory>
 
 // Callback function for ray cast
 typedef bool (*Octree_RayCallBack)(class OctreeOccupant* pOc, const float t[2]);

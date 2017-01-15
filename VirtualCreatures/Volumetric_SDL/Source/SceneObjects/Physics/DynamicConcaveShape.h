@@ -2,8 +2,8 @@
 
 #include <AssetManager/Asset.h>
 
-#include <btBulletDynamicsCommon.h>
-#include <btBulletCollisionCommon.h>
+#include <bullet/btBulletDynamicsCommon.h>
+#include <bullet/btBulletCollisionCommon.h>
 
 #include <vector>
 

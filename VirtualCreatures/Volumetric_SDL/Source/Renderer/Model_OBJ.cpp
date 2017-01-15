@@ -67,7 +67,7 @@ bool Model_OBJ::LoadAsset(const std::string &name)
 	std::vector<std::vector<unsigned short>> indices;
 
 	// Hash map for linking indices to vertex array index for attributes
-	std::unordered_map<IndexSet, unsigned int, IndexSet> indexToVertex;
+	std::unordered_map<IndexSet, unsigned int, KeyHash, KeyEqual> indexToVertex;
 
 	// Initial extremes
 	m_aabb.m_lowerBound = Vec3f(9999.0f, 9999.0f, 9999.0f);
@@ -132,8 +132,9 @@ bool Model_OBJ::LoadAsset(const std::string &name)
 		}
 		else if(header == "f")
 		{
-			assert(indices.size() > 0);
+//			assert(indices.size() > 0);
 			assert(currentObj == indices.size() - 1);
+			std::string g; // collecting garbage text after each indexNumber
 
 			// Add a face
 			IndexSet v[3];
@@ -159,7 +160,7 @@ bool Model_OBJ::LoadAsset(const std::string &name)
 			for(int i = 0; i < 3; i++)
 			{
 				// Search for index set 1
-				std::unordered_map<IndexSet, unsigned int>::iterator it = indexToVertex.find(v[i]);
+				std::unordered_map<IndexSet, unsigned int,KeyHash,KeyEqual>::iterator it = indexToVertex.find(v[i]);
 
 				if(it == indexToVertex.end())
 				{

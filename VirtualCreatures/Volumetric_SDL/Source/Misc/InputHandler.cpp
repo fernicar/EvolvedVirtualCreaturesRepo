@@ -8,7 +8,7 @@ InputHandler::InputHandler()
 	m_lmbClicked(false), m_rmbClicked(false)
 {
 	// Get the number of keys
-	SDL_GetKeyState(&m_numKeys);
+	SDL_GetKeyboardState(&m_numKeys);
 	m_keyStateArraySizeBytes = m_numKeys * sizeof(Uint8);
 	m_pPastKeyStates = new Uint8[m_numKeys];
 	m_pCurrentKeyStates = new Uint8[m_numKeys];
@@ -81,7 +81,7 @@ void InputHandler::GetInputs()
 	memcpy(m_pPastKeyStates, m_pCurrentKeyStates, m_keyStateArraySizeBytes);
 
 	// Get key states
-	Uint8* pStates = SDL_GetKeyState(NULL);
+	const Uint8* pStates = SDL_GetKeyboardState(NULL);
 
 	// Copy new states
 	memcpy(m_pCurrentKeyStates, pStates, m_keyStateArraySizeBytes);
@@ -127,7 +127,7 @@ Uint8 InputHandler::GetCurrentKeyState(Uint8 key)
 	return m_pCurrentKeyStates[key];
 }
 
-Uint8 InputHandler::GetCurrentKeyState(SDLKey key)
+Uint8 InputHandler::GetCurrentKeyState(SDL_Keycode key)
 {
 	return m_pCurrentKeyStates[key];
 }
@@ -137,7 +137,7 @@ Uint8 InputHandler::GetPastKeyState(Uint8 key)
 	return m_pPastKeyStates[key];
 }
 
-Uint8 InputHandler::GetPastKeyState(SDLKey key)
+Uint8 InputHandler::GetPastKeyState(SDL_Keycode key)
 {
 	return m_pPastKeyStates[key];
 }
@@ -147,7 +147,7 @@ bool InputHandler::KeyPressed(Uint8 key)
 	return !m_pPastKeyStates[key] && m_pCurrentKeyStates[key];
 }
 
-bool InputHandler::KeyPressed(SDLKey key)
+bool InputHandler::KeyPressed(SDL_Keycode key)
 {
 	return !m_pPastKeyStates[key] && m_pCurrentKeyStates[key];
 }
@@ -157,22 +157,24 @@ bool InputHandler::KeyReleased(Uint8 key)
 	return m_pPastKeyStates[key] && !m_pCurrentKeyStates[key];
 }
 
-bool InputHandler::KeyReleased(SDLKey key)
+bool InputHandler::KeyReleased(SDL_Keycode key)
 {
 	return m_pPastKeyStates[key] && !m_pCurrentKeyStates[key];
 }
 
 void InputHandler::SetMousePos(unsigned int x, unsigned int y)
 {
-	SDL_WarpMouse(x, y);
+	SDL_WarpMouseGlobal(x, y);
 }
 
 void InputHandler::KeepMouseInWindow(bool keepInWindow)
 {
 	if(keepInWindow)
-		SDL_WM_GrabInput(SDL_GRAB_ON);
+//		SDL_WM_GrabInput(SDL_GRAB_ON);
+		SDL_SetRelativeMouseMode(SDL_TRUE);
 	else
-		SDL_WM_GrabInput(SDL_GRAB_OFF);
+//		SDL_WM_GrabInput(SDL_GRAB_OFF);
+		SDL_SetRelativeMouseMode(SDL_FALSE);
 }
 
 void InputHandler::ShowMouse(bool show)

@@ -267,7 +267,7 @@ void Scene::Logic()
 
 	bool objectRemoved = false;
 
-	for(unsigned int i = 0, size = m_objects.size(); i < size; i++)
+	for(unsigned int i = 0; i < m_objects.size(); i++)
 		for(std::list<SceneObject*>::iterator it = m_objects[i].begin(); it != m_objects[i].end();)
 		{
 			SceneObject* pObject = *it;

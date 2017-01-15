@@ -3,6 +3,7 @@
 #include <SceneObjects/Enemies/SceneObject_Enemy.h>
 
 #include <unordered_map>
+#include <memory>
 
 #define ENEMY_SELECTOR_NAME "enemSel"
 

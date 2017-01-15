@@ -7,6 +7,7 @@
 #include <Utilities/UtilFuncs.h>
 
 #include <assert.h>
+#include <algorithm>
 
 const float Light_Spot::s_cutoffDistanceMultiplier = 8.0f;
 const float Light_Spot::s_rangeIntersectGeometryMultiplier = 1.1f;

@@ -1,4 +1,6 @@
 #pragma once
+#include <Renderer/SDL_OpenGL.h>
+
 
 class Window
 {
@@ -6,6 +8,8 @@ private:
 	unsigned int m_pixel_width, m_pixel_height;
 
 	bool m_created;
+	SDL_Window *m_win;
+	SDL_GLContext *m_glc;
 
 public:
 	Window();

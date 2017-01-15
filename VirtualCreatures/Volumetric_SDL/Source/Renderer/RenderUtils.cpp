@@ -3,6 +3,7 @@
 #include <Renderer/SDL_OpenGL.h>
 
 #include <Utilities/UtilFuncs.h>
+#include <algorithm>
 
 void DrawSphere(float radius, int res)
 {

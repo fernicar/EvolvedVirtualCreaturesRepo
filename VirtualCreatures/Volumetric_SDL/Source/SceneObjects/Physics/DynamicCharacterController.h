@@ -6,10 +6,10 @@
 
 #include <SceneObjects/Physics/SceneObject_PhysicsWorld.h>
 
-#include <btBulletDynamicsCommon.h>
-#include <btBulletCollisionCommon.h>
+#include <bullet/btBulletDynamicsCommon.h>
+#include <bullet/btBulletCollisionCommon.h>
 
-#include <BulletCollision/CollisionDispatch/btGhostObject.h>
+#include <bullet/BulletCollision/CollisionDispatch/btGhostObject.h>
 
 class DynamicCharacterController
 {

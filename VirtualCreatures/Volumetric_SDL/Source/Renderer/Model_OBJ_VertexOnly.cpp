@@ -82,10 +82,11 @@ bool Model_OBJ_VertexOnly::LoadAsset(const std::string &name)
 		{
 			// Add a face
 			unsigned int v[3];
+			std::string g;	// garbage
 
-			ss >> v[0];
-			ss >> v[1];
-			ss >> v[2];
+			ss >> v[0]>>g;
+			ss >> v[1]>>g;
+			ss >> v[2]>>g;
 
 			for(int i = 0; i < 3; i++)
 			{

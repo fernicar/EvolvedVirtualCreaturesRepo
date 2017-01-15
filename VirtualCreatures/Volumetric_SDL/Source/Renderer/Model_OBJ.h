@@ -21,6 +21,20 @@ struct IndexSet
 	bool operator==(const IndexSet &other) const;
 };
 
+struct KeyHash{
+	std::size_t operator()(const IndexSet& k) const{
+		return std::hash<unsigned int>()(k.vi)^
+			(std::hash<unsigned int>()(k.ti)<<1)^
+			(std::hash<unsigned int>()(k.ni)<<2);
+	}
+};
+
+struct KeyEqual{
+	bool operator()(const IndexSet& lhs,const IndexSet& rhs) const{
+		return lhs.vi==rhs.vi && lhs.ti==rhs.ti && lhs.ni==rhs.ni;
+	}
+};
+
 class Model_OBJ :
 	public Asset
 {

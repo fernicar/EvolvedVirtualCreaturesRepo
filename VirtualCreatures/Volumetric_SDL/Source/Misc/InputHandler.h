@@ -2,7 +2,7 @@
 
 #include <System/Uncopyable.h>
 #include <Renderer/Window.h>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 class InputHandler :
 	public Uncopyable
@@ -38,14 +38,14 @@ public:
 	bool RMBClicked();
 
 	Uint8 GetCurrentKeyState(Uint8 key);
-	Uint8 GetCurrentKeyState(SDLKey key);
+	Uint8 GetCurrentKeyState(SDL_Keycode key);
 	Uint8 GetPastKeyState(Uint8 key);
-	Uint8 GetPastKeyState(SDLKey key);
+	Uint8 GetPastKeyState(SDL_Keycode key);
 
 	bool KeyPressed(Uint8 key);
-	bool KeyPressed(SDLKey key);
+	bool KeyPressed(SDL_Keycode key);
 	bool KeyReleased(Uint8 key);
-	bool KeyReleased(SDLKey key);
+	bool KeyReleased(SDL_Keycode key);
 
 	unsigned int GetMouseX();
 	unsigned int GetMouseY();

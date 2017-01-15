@@ -1,7 +1,7 @@
 #pragma once
 
-#include <al.h>
-#include <alut.h>
+#include <al/al.h>
+#include <al/alut.h>
 
 bool CheckForALError();
 

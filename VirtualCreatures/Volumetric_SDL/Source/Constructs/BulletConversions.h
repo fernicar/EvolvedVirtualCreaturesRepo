@@ -3,8 +3,8 @@
 #include <Constructs/Vec3f.h>
 #include <Constructs/Quaternion.h>
 
-#include <btBulletDynamicsCommon.h>
-#include <btBulletCollisionCommon.h>
+#include <bullet/btBulletDynamicsCommon.h>
+#include <bullet/btBulletCollisionCommon.h>
 
 // Functions for converting from this game engine's constructs to Bullet physics constructs
 btVector3 bt(const Vec3f &vec);

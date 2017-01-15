@@ -384,6 +384,9 @@
     <ClInclude Include="Source\World\Physics\MapCollider.h" />
     <ClInclude Include="Source\World\World.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Object Include="data\weapons\pack1\ballisticBarrel1.obj" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

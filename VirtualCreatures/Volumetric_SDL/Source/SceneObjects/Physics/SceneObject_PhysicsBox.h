@@ -6,8 +6,8 @@
 
 #include <SceneObjects/SceneObject_Prop.h>
 
-#include <btBulletDynamicsCommon.h>
-#include <btBulletCollisionCommon.h>
+#include <bullet/btBulletDynamicsCommon.h>
+#include <bullet/btBulletCollisionCommon.h>
 
 class SceneObject_PhysicsBox :
 	public SceneObject

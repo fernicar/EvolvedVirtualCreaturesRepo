@@ -979,4 +979,7 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="ClassDiagram2.cd" />
   </ItemGroup>
+  <ItemGroup>
+    <Object Include="data\weapons\pack1\ballisticBarrel1.obj" />
+  </ItemGroup>
 </Project>

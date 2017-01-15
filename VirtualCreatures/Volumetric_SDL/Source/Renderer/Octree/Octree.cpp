@@ -8,6 +8,7 @@
 #include <Renderer/SDL_OpenGL.h>
 
 #include <assert.h>
+#include <algorithm>
 
 void Octree::OnRemoval()
 {

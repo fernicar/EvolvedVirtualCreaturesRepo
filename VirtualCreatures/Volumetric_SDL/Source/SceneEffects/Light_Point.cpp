@@ -3,6 +3,7 @@
 #include <SceneEffects/SceneEffect_Lighting.h>
 
 #include <Constructs/Matrix4x4f.h>
+#include <algorithm>
 
 const float Light_Point::s_cutoffDistanceMultiplier = 8.0f;
 const float Light_Point::s_rangeIntersectGeometryMultiplier = 1.2f;

@@ -31,7 +31,7 @@ void CSDLThread::Start()
 {
 	assert(m_pSDLThread == NULL);
 
-	m_pSDLThread = SDL_CreateThread(CSDLThreadFunc, this);
+	m_pSDLThread = SDL_CreateThread(CSDLThreadFunc, "", this);
 
 	if(m_pSDLThread == NULL)
 		std::cerr << "Error while trying to create SDL thread: " << SDL_GetError() << std::endl;

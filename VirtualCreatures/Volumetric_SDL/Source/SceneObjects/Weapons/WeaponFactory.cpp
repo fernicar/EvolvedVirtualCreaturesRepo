@@ -91,7 +91,7 @@ bool WeaponFactory::Create(Weapon* weapon, Weapon::WeaponType type, const std::s
 		{
 			Model_OBJ::Material* pMat = m_pWeapon->m_pShellModel->GetMaterial(i);
 		
-			pMat->m_pDiffuseMap->Bind();
+			if(pMat->m_pDiffuseMap)pMat->m_pDiffuseMap->Bind();
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST); 
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 

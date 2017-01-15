@@ -54,12 +54,13 @@
 #include <assert.h>
 
 #include <fstream>
+//#include <tchar.h>
 
 int main(int argc, char* args[])
 {
 	// Create the window
 	Window win;
-	win.Create(1200, 800, false);
+	if(win.Create(800,600,false)==false)return 1;
 	win.SetViewport();
 	win.SetProjection();
 	
@@ -71,6 +72,7 @@ int main(int argc, char* args[])
 	glDepthFunc(GL_LESS);
 	glEnable(GL_DEPTH_TEST);
 
+	GL_ERROR_CHECK();
 	Scene scene;
 
 	scene.Create(&win,
@@ -318,7 +320,7 @@ int main(int argc, char* args[])
 			scene.SetRenderMode(ocCull);
 		}
 
-		SDL_GL_SwapBuffers();
+		SDL_GL_SwapWindow(SDL_GL_GetCurrentWindow());
 	}
 
 	scene.Clear();
